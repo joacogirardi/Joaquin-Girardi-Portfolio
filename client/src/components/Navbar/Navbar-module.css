@@ -1,0 +1,49 @@
+.bg-generalNB{
+    padding-right: 110px;
+    padding-left: 80px;
+    font-weight: 600;
+    background: #1a1a1a96;
+    backdrop-filter: saturate(180%) blur(10px);
+    transition: background .3s;
+    box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
+}
+
+.mainFontNav{
+    color: white;
+    font-size: 27px;
+}
+
+.mainFontNav:hover{
+    color: rgb(209, 209, 209);
+    font-size: 27px;
+}
+
+.titleMainFont{
+    margin: 0;
+    background-color: #620062;
+    color: white;
+    border-radius: 11px;
+    font-size: 12px;
+    width: 60px;
+    margin-left: 9px;
+}
+
+.internalTextNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SocialMediaNav{
+    display: inline-flex;
+}
+
+.liSocialMedia{
+    margin-right: 15px;
+    color: gray;
+}
+
+.liSocialMedia:hover{
+    margin-right: 15px;
+    color: #620062;
+}

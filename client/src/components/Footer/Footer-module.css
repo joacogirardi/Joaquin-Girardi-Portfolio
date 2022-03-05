@@ -13,4 +13,15 @@
     box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
 }
 
+.listFoot1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #787878;
+}
 
+.titleFootList{
+    display: flex;
+    position: relative;
+    left: 19px;
+}

@@ -9,7 +9,7 @@ import "./Home-module.css";
 export default function Home() {
   return (
     <>
-      <div className="homeMainPage">
+      <div className="homeMainPage" id="top">
         <Navbar />
 
         <div className="container">

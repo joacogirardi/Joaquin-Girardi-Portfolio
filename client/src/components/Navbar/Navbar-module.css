@@ -28,6 +28,11 @@
     margin-left: 9px;
 }
 
+.titleMainFont:hover{
+    background-color: white;
+    color: #620062;
+}
+
 .internalTextNav{
     display: flex;
     flex-direction: row;
@@ -45,5 +50,23 @@
 
 .liSocialMedia:hover{
     margin-right: 15px;
-    color: #620062;
+    color: rgb(146, 255, 0);
+}
+
+.middleTextpro{
+    color: rgb(146, 255, 0);
+    background-color: black;
+    padding: 7px;
+    border-radius: 24px;
+}
+
+.middleTextpro:hover{
+    background-color: rgb(146, 255, 0);;
+    color: black
+}
+
+.imgNavbar{
+    width: 35px;
+    border-radius: 25px;
+    margin-right: 10px;
 }

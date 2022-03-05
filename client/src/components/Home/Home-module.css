@@ -1,7 +1,15 @@
 .homeMainPage {
   width: 100vw;
-  height: 100vw;
+  height: 130vw;
   background: #03001e;
   background: linear-gradient(to left, #000000, #000000, #620062, #000000);
   -webkit-backdrop-filter: blur(100px);
+}
+
+.betweenComp{
+  margin-bottom: 20pc;
+}
+
+.nameMain{
+  margin-bottom: 7pc;
 }

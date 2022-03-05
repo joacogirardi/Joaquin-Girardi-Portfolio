@@ -1,0 +1,75 @@
+.containText{
+    position: absolute;
+    margin-left: 8.5pc;
+    margin-top: 1.5pc;
+    background-color: #000000c9;
+    border-radius: 31px;
+    height: 22.5pc;
+}
+
+.inputsHomeDemo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.tagsHTML{
+    color:rgb(255, 81, 0)
+}
+
+.parentDemo{
+    color: violet;
+}
+
+.variables{
+    color: rgb(146, 255, 0);
+}
+
+.codeDemoHome{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.haveThePs{
+    margin-top: 1.5pc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    background-color: black;
+    z-index: 5;
+}
+
+.boxdetail{
+    color: white;
+    background-color: #b03609;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#buttonMainTry{
+    display: flex;
+    width: 21.5pc;
+    background-color: black;
+    color: rgb(146, 255, 0);
+}
+
+.InfAboutPage{
+    color: #6c6c6c;
+}
+
+#bgAcord{
+    background-color: black;
+}
+
+.codeDemoInfo{
+    color: rgb(255, 255, 255);
+    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+    margin-top: -2pc;
+    margin-bottom: 2pc;
+  }

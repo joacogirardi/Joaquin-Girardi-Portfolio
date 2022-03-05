@@ -1,0 +1,15 @@
+.WhoIsJoaco {
+  color: white;
+  display: flex;
+  text-align: left;
+}
+
+.TechInfo {
+  color: #ababab;
+  display: flex;
+  text-align: left;
+}
+
+.aboutJoacoMain{
+  margin-bottom: 15pc;
+}

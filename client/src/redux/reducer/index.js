@@ -1,13 +1,13 @@
 const initialState = {
-    state : {}
+    userName : []
 }
 
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
-        case "EXAMPLE":
+        case "NEW_USER_NAME":
             return {
                 ...state,
-                state: action.payload
+                userName: action.payload
             }
         default : return state
     }

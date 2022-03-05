@@ -1,7 +1,15 @@
-.ContProyMain{
-    /* background-color: red; */
+.titleProyDem{
+    color: black;
+    margin-bottom: 10px;
 }
 
 .TitleCert{
     margin-bottom: 6pc;
+}
+
+.contH3Proy{
+    background-color: #000000ba;
+    display: inline-table;
+    padding: 8px;
+    border-radius: 10px;
 }

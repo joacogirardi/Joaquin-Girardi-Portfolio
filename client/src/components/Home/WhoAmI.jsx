@@ -3,7 +3,7 @@ import "./WhoAmI-module.css";
 
 export default function WhoAmI() {
   return (
-    <div style={{ "margin-top": "5pc" }}>
+    <div style={{ "margin-top": "3pc" }}>
       <div className="container aboutJoacoMain">
         <div className="row">
           <div className="col-12">
@@ -14,12 +14,13 @@ export default function WhoAmI() {
               of a good coffee. I am willing to work as a team, to contribute
               ideas, commitment, responsibility and desire to excel every day.
             </p>
+            <div style={{"margin":"4pc"}}></div>
             <h2 className="WhoIsJoaco">Development technologies :</h2>
             <p className="TechInfo">
               I currently work with Javascript, HTML, CSS, Node JS, React |
               Redux, React, Express, Sequelize, PostgreSQL, SQL
             </p>
-            <p align="left">
+            <p style={{"margin":"10px"}} align="left">
               {" "}
               <a
                 href="https://www.gnu.org/software/bash/"

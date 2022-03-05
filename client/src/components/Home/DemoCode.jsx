@@ -5,8 +5,10 @@ import Cookies from "universal-cookie";
 import { setNewUser } from "../../redux/actions";
 import swal from "sweetalert2";
 import "./DemoCode-module.css";
+import designSecondbyHome from "../../contents/media/designSecondbyHome.png";
 
 export default function DemoCode() {
+  const underBuild = ()=>{swal.fire("feature under construction")}
   const [userName, setuserName] = useState();
   const dispatch = useDispatch();
   const cookies = new Cookies();
@@ -33,14 +35,7 @@ export default function DemoCode() {
   }
 
   return (
-    <div>
-      <head>
-        <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css" />
-      </head>
-      <body>
-        <script src="sweetalert2/dist/sweetalert2.min.js"></script>
-      </body>
-
+    <div className="contCodeDemo">
       <div className="containText">
         <div style={{ "margin-top": "2pc", "margin-bottom": "3.5pc" }}>
           <h3 style={{ color: "white" }}>What will you find here?</h3>
@@ -61,7 +56,7 @@ export default function DemoCode() {
         </div>
 
         <div style={{ display: "grid" }}>
-          <button className="btn btn-info">Contact Now</button>
+          <button onClick={underBuild} className="btn btn-info">Contact Now</button>
         </div>
 
         <div class="accordion accordion-flush">
@@ -159,6 +154,7 @@ export default function DemoCode() {
           </div>
         </div>
       </div>
+      <img src={designSecondbyHome} alt="nf" />
     </div>
   );
 }

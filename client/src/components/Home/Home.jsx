@@ -11,7 +11,6 @@ export default function Home() {
     <>
       <div className="homeMainPage" id="top">
         <Navbar />
-
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -19,13 +18,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="betweenComp"> </div>
-
         <PhraseBox />
-
         <WhoAmI />
-
         <Footer />
       </div>
     </>

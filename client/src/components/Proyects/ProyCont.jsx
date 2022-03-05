@@ -4,9 +4,27 @@ import clinno_home from '../../contents/media/proyects/clinno_home.png'
 import clinno_icon from '../../contents/media/proyects/clinno_icon.png'
 import food_home from '../../contents/media/proyects/food_home.png'
 import food_icon from '../../contents/media/proyects/food_icon.png'
+import Swal from "sweetalert2";
 import "./ProyCont-module.css";
 
 export default function ContCert() {
+
+  const Message = ()=>{
+    Swal.fire({
+      title: 'Project will be deployed soon💡',
+      width: 600,
+      padding: '3em',
+      color: '#716add',
+      background: '#fff url(/images/trees.png)',
+      backdrop: `
+        rgba(0,0,123,0.4)
+        url("/images/nyan-cat.gif")
+        left top
+        no-repeat
+      `
+    })
+  }
+
   return (
     <div className="container">
       <div className="row">
@@ -23,10 +41,11 @@ export default function ContCert() {
                     weight="bold"
                     transform="uppercase"
                     color="#9E9E9E"
+                    className="titleProyDem"
                   >
                     Clinno - Medical booking app
                   </Text>
-                  <Text h3 color="white">
+                  <Text className="contH3Proy" h3 color="white">
                   Find clinics at all times<br />
 for the specialty you need
                   </Text>
@@ -38,7 +57,7 @@ for the specialty you need
                   height={400}
                   width="100%"
                   alt="Clinno app Home"
-                  style={{"filter" :"brightness(0.8)"}}
+                  style={{"filter" :"blur(3px)"}}
                 />
               </Card.Body>
               <Card.Footer
@@ -80,6 +99,7 @@ for the specialty you need
                         auto
                         rounded
                         css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                        onClick={Message}
                       >
                         <Text
                           css={{ color: "inherit" }}
@@ -104,10 +124,11 @@ for the specialty you need
                     weight="bold"
                     transform="uppercase"
                     color="#9E9E9E"
+                    className="titleProyDem"
                   >
                     FoodCity - Food recipe App
                   </Text>
-                  <Text h3 color="white">
+                  <Text className="contH3Proy" h3 color="white">
                   Search among hundreds of food recipes, <br />
                    or create your own!
                   </Text>
@@ -119,7 +140,7 @@ for the specialty you need
                   height={400}
                   width="100%"
                   alt="FoodCity app Home"
-                  style={{"filter" :"brightness(0.8)"}}
+                  style={{"filter" :"blur(3px)"}}
                 />
               </Card.Body>
               <Card.Footer
@@ -161,6 +182,7 @@ for the specialty you need
                         auto
                         rounded
                         css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                        onClick={Message}
                       >
                         <Text
                           css={{ color: "inherit" }}

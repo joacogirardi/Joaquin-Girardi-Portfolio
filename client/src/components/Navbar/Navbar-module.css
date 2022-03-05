@@ -1,6 +1,6 @@
 .bg-generalNB{
-    padding-right: 110px;
-    padding-left: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-weight: 600;
     background: #1a1a1a96;
     backdrop-filter: saturate(180%) blur(10px);
@@ -10,7 +10,7 @@
 
 .mainFontNav{
     color: white;
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .mainFontNav:hover{
@@ -33,34 +33,39 @@
     color: #620062;
 }
 
-.internalTextNav{
+/* .internalTextNav{
     display: flex;
     flex-direction: row;
     align-items: center;
+} */
+
+.logoNameNav{
+    display: flex;
+    align-items: center;
 }
 
-.SocialMediaNav{
+/* .SocialMediaNav{
     display: inline-flex;
-}
+} */
 
-.liSocialMedia{
-    margin-right: 15px;
+#liSocialMedia{
+    /* margin-right: 15px; */
     color: gray;
 }
 
-.liSocialMedia:hover{
+#liSocialMedia:hover{
     margin-right: 15px;
     color: rgb(146, 255, 0);
 }
 
-.middleTextpro{
+#middleTextpro{
     color: rgb(146, 255, 0);
     background-color: black;
     padding: 7px;
     border-radius: 24px;
 }
 
-.middleTextpro:hover{
+#middleTextpro:hover{
     background-color: rgb(146, 255, 0);;
     color: black
 }

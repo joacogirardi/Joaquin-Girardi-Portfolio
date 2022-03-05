@@ -2,14 +2,16 @@
   color: white;
   display: flex;
   text-align: left;
+  margin: 20px;
 }
 
 .TechInfo {
   color: #ababab;
   display: flex;
   text-align: left;
+  margin: 20px;
 }
 
 .aboutJoacoMain{
-  margin-bottom: 15pc;
+  margin-bottom: 10pc;
 }

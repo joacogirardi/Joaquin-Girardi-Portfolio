@@ -1,10 +1,13 @@
 .containText{
-    position: absolute;
-    margin-left: 8.5pc;
-    margin-top: 1.5pc;
     background-color: #000000c9;
     border-radius: 31px;
     height: 22.5pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
 }
 
 .inputsHomeDemo{
@@ -73,3 +76,9 @@
     margin-top: -2pc;
     margin-bottom: 2pc;
   }
+
+.contCodeDemo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

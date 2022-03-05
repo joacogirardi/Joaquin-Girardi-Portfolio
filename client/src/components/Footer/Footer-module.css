@@ -1,27 +1,37 @@
 .footerHome{
     overflow: auto!important;
-    width: 100%!important;
-    height: 190px;
+    padding: 25px;
+    height: auto;
     color: #cacaca;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    margin-left: 0px!important;
-    margin-right: 0px!important;
     background: #000000ad;
     box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
 }
 
 .listFoot1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     color: #787878;
+    margin: 0;
 }
 
 .titleFootList{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.everyUlList{
+    margin: 0;
+    line-height: 1.2;
+}
+
+.columFootInf{
     display: flex;
-    position: relative;
-    left: 19px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contInptNav{
+    display: flex;
+    width: 4pc;
+    margin-top: 12px;
 }

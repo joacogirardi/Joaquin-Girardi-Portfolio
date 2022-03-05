@@ -1,18 +1,9 @@
 .PhraseBoxHome{
-    overflow: auto!important;
-    width: 100%!important;
-    height: 150px;
-    color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    margin-left: 0px!important;
-    margin-right: 0px!important;
-    background: #000000ab;
-    backdrop-filter: saturate(180%) blur(10px);
-    transition: background .3s;
-    box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
+  height: auto;
+  color: #f1f1f1;
+  background: #000000ab;
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
 }
 
 .PhraseSecondScreen{
@@ -22,8 +13,10 @@
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
   font-size: 4pc;
+  line-height: 1;
 }
 
 .subTitleMain{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1pc;
 }

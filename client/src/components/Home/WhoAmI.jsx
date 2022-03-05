@@ -3,7 +3,7 @@ import "./WhoAmI-module.css";
 
 export default function WhoAmI() {
   return (
-    <div style={{ "margin-top": "5pc" }} id="AboutMe">
+    <div style={{ "margin-top": "5pc" }}>
       <div className="container aboutJoacoMain">
         <div className="row">
           <div className="col-12">

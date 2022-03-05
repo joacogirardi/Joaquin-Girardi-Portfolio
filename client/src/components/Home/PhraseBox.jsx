@@ -3,7 +3,7 @@ import "./PhraseBox-module.css";
 
 export default function PhraseBox() {
   return (
-    <div className="row">
+    <div className="row" id="AboutMe">
       <div className="PhraseBoxHome">
         <div className="phraseEffect">
           <h1 className="PhraseSecondScreen">

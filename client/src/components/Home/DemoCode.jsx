@@ -13,10 +13,15 @@ export default function DemoCode() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    dispatch(setNewUser(userName?.name));
-    cookies.set("name", userName?.name, { path: "/" });
-    swal.fire(`Hello ${userName?.name}!`);
-    setTimeout((window.location.href = "/"), 2000);
+    if (userName?.name === undefined || userName?.name.length < 1 ) {
+      setuserName({...userName, name : "Guest"})
+      return swal.fire("Enter a valid name and try again");
+    } 
+      dispatch(setNewUser(userName?.name));
+      cookies.set("name", userName?.name, { path: "/" });
+      swal.fire(`Hello ${userName?.name}!`);
+      setTimeout((window.location.href = "/"), 3000);
+    
   }
 
   function handleChange(e) {
@@ -37,19 +42,26 @@ export default function DemoCode() {
       </body>
 
       <div className="containText">
-        <div style={{ "margin-top": "2pc", "margin-bottom":"3.5pc" }}>
-          <h3 style={{ color: "white" }}>what can you find here?</h3>
-          <span className="InfAboutPage">This is my portfolio, where you will find</span><br />
-          <span className="InfAboutPage"><strong>contact information,</strong> projects in which</span><br />
-          <span className="InfAboutPage">I was working and you will know</span><br />
-          <span className="InfAboutPage"> a little <a href="#AboutMe">about me</a></span>
+        <div style={{ "margin-top": "2pc", "margin-bottom": "3.5pc" }}>
+          <h3 style={{ color: "white" }}>What will you find here?</h3>
+          <span className="InfAboutPage">
+            This is my portfolio, where you will find
+          </span>
+          <br />
+          <span className="InfAboutPage">
+            <strong>contact information,</strong> projects in which
+          </span>
+          <br />
+          <span className="InfAboutPage">I was working and you will know</span>
+          <br />
+          <span className="InfAboutPage">
+            {" "}
+            a little <a href="#AboutMe">about me</a>
+          </span>
         </div>
 
-
-        <div style={{"display":"grid"}}>
-            <button className="btn btn-info" >
-                Contact Now
-            </button>
+        <div style={{ display: "grid" }}>
+          <button className="btn btn-info">Contact Now</button>
         </div>
 
         <div class="accordion accordion-flush">
@@ -124,7 +136,9 @@ export default function DemoCode() {
                   {"}"}
                 </p>
               </p>
-              <p className="codeDemoInfo">That's a simple function, let's see what it can do👇</p>
+              <p className="codeDemoInfo">
+                That's a simple function, let's see what it can do👇
+              </p>
               <div className="inputsHomeDemo">
                 <form autoComplete="off" onSubmit={(e) => handleSubmit(e)}>
                   <input

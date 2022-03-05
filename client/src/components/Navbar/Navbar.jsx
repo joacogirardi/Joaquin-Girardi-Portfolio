@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import girardiProfile from '../../contents/media/girardiProfile.jpg'
 import "./Navbar-module.css";
 
@@ -10,7 +11,7 @@ export default function Navbar() {
           <div className="col-4">
             <div className="internalTextNav">
               <img className="imgNavbar" src={girardiProfile} alt='profile' />
-              <h2 className="mainFontNav">Girardi Joaquin</h2>
+              <Link to='/'><h2 className="mainFontNav">Girardi Joaquin</h2></Link>
               <p className="titleMainFont">Portfolio</p>
             </div>
           </div>

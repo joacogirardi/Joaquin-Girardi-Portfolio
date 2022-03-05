@@ -15,7 +15,7 @@ export default function TextMiddle() {
 
           <div className="col-4 someTextHere">
               <h1 className="txtMP">Welcome {name? name : "guest"}</h1>
-                <small style={{"color" : "#a1a1a1", "margin-top" :"-15px"}}> I am Joaquin Girardi, <strong>Full Stack Developer</strong></small>
+                <small style={{"color" : "#a1a1a1"}}> I am Joaquin Girardi, <strong>Full Stack Developer</strong></small>
               <div className="mainScreenText">
                 <small className="txtMPSmall">
                   This is my personal portfolio Feel free to watch it

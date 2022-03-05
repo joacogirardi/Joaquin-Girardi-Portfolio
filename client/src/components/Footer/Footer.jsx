@@ -12,7 +12,7 @@ export default function Footer() {
               <li>This site was developed by Joaquin Girardi</li>
               <li>All rights reserved</li>
               <li>
-                go to the <a href="#top">top</a>
+                Go to the <a href="#top">top</a>
               </li>
             </ul>
           </div>
@@ -41,10 +41,10 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col-4">
-            <h4 className="titleFootList">leave your email</h4>
+            <h4 className="titleFootList">Leave your email</h4>
             <ul className="listFoot1">
                 <li>
-                leave your email and I will contact you
+                Leave your email and I will contact you
                 </li>
               <li>
                 <input placeholder="Write your email id here"></input>

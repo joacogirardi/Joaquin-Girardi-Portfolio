@@ -10,7 +10,7 @@ export default function DemoCode() {
   const [userName, setuserName] = useState();
   const dispatch = useDispatch();
   const cookies = new Cookies();
-
+ 
   function handleSubmit(e) {
     e.preventDefault();
     if (userName?.name === undefined || userName?.name.length < 1 ) {

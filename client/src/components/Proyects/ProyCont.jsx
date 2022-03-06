@@ -41,11 +41,11 @@ export default function ContCert() {
                     weight="bold"
                     transform="uppercase"
                     color="#9E9E9E"
-                    className="titleProyDem"
+                    className="contH3Proy"
                   >
                     Clinno - Medical booking app
                   </Text>
-                  <Text className="contH3Proy" h3 color="white">
+                  <Text className="titleProyDem" h3 color="white">
                   Find clinics at all times<br />
 for the specialty you need
                   </Text>
@@ -124,11 +124,11 @@ for the specialty you need
                     weight="bold"
                     transform="uppercase"
                     color="#9E9E9E"
-                    className="titleProyDem"
+                    className="contH3Proy"
                   >
                     FoodCity - Food recipe App
                   </Text>
-                  <Text className="contH3Proy" h3 color="white">
+                  <Text className="titleProyDem" h3 color="white">
                   Search among hundreds of food recipes, <br />
                    or create your own!
                   </Text>

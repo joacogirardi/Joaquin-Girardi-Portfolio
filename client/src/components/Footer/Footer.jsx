@@ -4,6 +4,9 @@ import "./Footer-module.css";
 
 export default function Footer() {
   const underBuild = ()=>{Swal.fire("feature under construction")}
+  function emailSubmit(){
+    Swal.fire("Email scheduled successfully", "in the next few hours you will receive a message from me", "success")
+  }
   return (
     <footer className="footerHome">
       <div className="container">
@@ -43,7 +46,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="everyUlList">
-                  Download my <button className="btn btn-black" onClick={underBuild}>CV</button>
+                  Download my <a href="https://drive.google.com/drive/folders/1b2_6JwyAzeHAVl6t4kOMQCk60pUEfHEV?usp=sharing">CV</a>
                 </li>
               </ul>
             </div>
@@ -51,13 +54,12 @@ export default function Footer() {
 
             <div className="col-4">
           <div className="columFootInf">
-              <h4 className="titleFootList">Leave your email</h4>
+              <h4 className="titleFootList">Leave your Data</h4>
               <ul className="listFoot1">
-                <li className="everyUlList">Leave your email and I will contact you</li>
+                <li className="everyUlList">Write your email and I will contact</li>
                 <li className="everyUlList">
                   <div className="contInptNav">
-                  <input placeholder="Write your email id here"></input>
-                  <button className="btn btn-primary">save</button>
+                  <input placeholder="your email adress"></input><button onClick={emailSubmit} className="btn btn-primary">send</button>
                   </div>
                 </li>
               </ul>

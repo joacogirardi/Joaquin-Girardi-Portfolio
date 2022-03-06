@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import ProyCont from './ProyCont'
+import { Link } from "react-router-dom";
 import "./Proyects-module.css";
 
 export default function Proyects() {
@@ -16,7 +17,10 @@ export default function Proyects() {
           </div>
         </div>
       </div>
-      <div style={{"margin-top":"10pc"}}></div>
+      <div>
+          <Link to='/'><button style={{"margin-top":"5pc"}} className="btn btn-info">Back Home</button></Link>
+      </div>
+      <div style={{"margin-top":"5pc"}}></div>
       <Footer />
     </div>
   );

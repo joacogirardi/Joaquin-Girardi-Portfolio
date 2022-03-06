@@ -1,12 +1,7 @@
 .containText{
     background-color: #000000c9;
-    border-radius: 31px;
+    border-radius: 18px;
     height: 22.5pc;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
     position: absolute;
 }
 
@@ -14,7 +9,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -35px;
+    padding: 14px;
 }
 
 .tagsHTML{
@@ -57,6 +53,7 @@
 
 #buttonMainTry{
     display: flex;
+    flex-direction: column;
     width: 21.5pc;
     background-color: black;
     color: rgb(146, 255, 0);
@@ -81,4 +78,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+#infoHomeModal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

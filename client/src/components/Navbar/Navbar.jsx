@@ -5,21 +5,21 @@ import "./Navbar-module.css";
 
 export default function Navbar() {
   return (
-    <div className="NVB">
-      <nav className="navbar fixed-top  navbar-expand-lg navbar-light  bg-generalNB">
+    <div>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light  bg-generalNB">
         <div className="container-fluid">
           <div className="logoNameNav">
             <Link className="navbar-brand" style={{ margin: "0" }} to="/">
               <img className="imgNavbar" src={girardiProfile} alt="Girardi" />
             </Link>
             <Link to="/">
-              <h2 className="mainFontNav">Girardi Joaquin</h2>
+              <p className="mainFontNav">Girardi Joaquin</p>
             </Link>
             <p className="titleMainFont">Portfolio</p>
           </div>
           <button
             className="navbar-toggler"
-            style={{"background-color" : "rgb(98 0 98 / 12%)", "border-radius" : "8px"}}
+            style={{"background-color" : "rgb(107 187 0)", "border-radius" : "8px"}}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

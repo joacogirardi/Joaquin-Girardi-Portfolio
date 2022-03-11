@@ -1,22 +1,19 @@
-.PhraseBoxHome{
+.PhraseBoxHome {
   height: auto;
   color: #f1f1f1;
-  background: #000000ab;
-  -webkit-backdrop-filter: saturate(180%) blur(10px);
   backdrop-filter: saturate(180%) blur(10px);
+  background-image: url(https://wallpapercave.com/wp/wp2730878.gif);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.PhraseSecondScreen{
-    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
+.PhraseSecondScreen {
   font-size: 4pc;
-  line-height: 1;
+  line-height: 0.9;
 }
 
-.subTitleMain{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.subTitleMain {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 1pc;
+  color: #161318;
 }

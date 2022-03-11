@@ -5,7 +5,6 @@ import Cookies from "universal-cookie";
 import { setNewUser } from "../../redux/actions";
 import swal from "sweetalert2";
 import "./DemoCode-module.css";
-import designSecondbyHome from "../../contents/media/designSecondbyHome.png";
 
 export default function DemoCode() {
   const [userName, setuserName] = useState();
@@ -159,71 +158,7 @@ export default function DemoCode() {
                   aria-labelledby="flush-headingOne"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <p className="haveThePs">
-                    <p className="codeDemoHome">
-                      <span style={{ color: "#00f3ff" }}>function</span>
-                      <span className="variables">{" Greet "}</span>
-                      <span className="parentDemo">{"( ) {"}</span>
-                    </p>
-                    <p
-                      className="codeDemoHome"
-                      style={{ "margin-left": "15px" }}
-                    >
-                      {" "}
-                      <span style={{ color: "#00f3ff" }}>const </span>
-                      <span className="variables">submit</span>
-                      <span className="tagsHTML"> =</span>
-                      {"  ( )=>{dispatch (greetUser( ))}"}
-                    </p>
-                    <p
-                      className="codeDemoHome"
-                      style={{ "margin-left": "30px" }}
-                    >
-                      <span className="tagsHTML">return </span>
-                      <span className="parentDemo">{"("}</span>
-                    </p>
-                    <p
-                      className="codeDemoHome"
-                      style={{ "margin-left": "45px" }}
-                    >
-                      <span className="tagsHTML">{"<form "}</span>
-                      {"onSubmit={submit}"}
-                      <span className="tagsHTML">{">"}</span>
-                    </p>
-                    <p className="codeDemoHome">
-                      {" "}
-                      <span className="tagsHTML">{"<input"}</span>
-                      <span className="variables"> placeholder</span>
-                      {" =Whats your Name?"}
-                      <span className="tagsHTML">{"></input>"}</span>
-                    </p>
-                    <p className="codeDemoHome">
-                      <span className="tagsHTML">{"<button"}</span>
-                      <span className="variables"> type</span>
-                      {" =submit>Greet me!"}
-                      <span className="tagsHTML">{"</button>"}</span>
-                    </p>
-                    <p
-                      className="codeDemoHome"
-                      style={{
-                        "margin-left": "45px",
-                        color: "rgb(255, 81, 0)",
-                      }}
-                    >
-                      {"</form>"}
-                    </p>
-                    <p
-                      className="codeDemoHome"
-                      style={{ "margin-left": "30px", color: "violet" }}
-                    >
-                      {")"}
-                    </p>
-                    <p className="codeDemoHome" style={{ color: "violet" }}>
-                      {"}"}
-                    </p>
-                  </p>
                   <p className="codeDemoInfo">
-                    That's a simple function, let's see what it can do👇
                   </p>
                   <form autoComplete="off" onSubmit={(e) => handleSubmit(e)}>
                     <div className="inputsHomeDemo">

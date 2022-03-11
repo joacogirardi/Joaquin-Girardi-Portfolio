@@ -19,7 +19,7 @@
 
 .titleMainFont{
     margin: 0;
-    background-color: #620062;
+    background-color: #9b36f4;
     color: white;
     border-radius: 11px;
     font-size: 12px;
@@ -29,7 +29,7 @@
 
 .titleMainFont:hover{
     background-color: white;
-    color: #620062;
+    color: #9b36f4;
 }
 
 .logoNameNav{

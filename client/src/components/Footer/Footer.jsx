@@ -1,14 +1,14 @@
 import React from "react";
 import Swal from "sweetalert2";
+import footerPic from '../../contents/media/footerPic.jpg'
 import "./Footer-module.css";
 
 export default function Footer() {
-  const underBuild = ()=>{Swal.fire("feature under construction")}
   function emailSubmit(){
     Swal.fire("Email scheduled successfully", "in the next few hours you will receive a message from me", "success")
   }
   return (
-    <footer className="footerHome">
+    <footer className="footerHome" style={{"background": `url(${footerPic})`, "background-size" : "100%20pc"}}>
       <div className="container">
         <div className="row">
 

@@ -33,40 +33,29 @@
     color: #620062;
 }
 
-/* .internalTextNav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
-
 .logoNameNav{
     display: flex;
     align-items: center;
 }
 
-/* .SocialMediaNav{
-    display: inline-flex;
-} */
-
 #liSocialMedia{
-    /* margin-right: 15px; */
     color: gray;
 }
 
 #liSocialMedia:hover{
     margin-right: 15px;
-    color: rgb(146, 255, 0);
+    color: rgb(13, 202, 240);
 }
 
 #middleTextpro{
-    color: rgb(146, 255, 0);
+    color: rgb(13, 202, 240);
     background-color: black;
     padding: 7px;
     border-radius: 24px;
 }
 
 #middleTextpro:hover{
-    background-color: rgb(146, 255, 0);;
+    color: rgb(13, 202, 240);
     color: black
 }
 

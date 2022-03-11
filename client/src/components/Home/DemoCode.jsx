@@ -50,7 +50,7 @@ export default function DemoCode() {
           <br />
           <span className="InfAboutPage">
             <a
-              style={{ color: "rgb(146, 255, 0)" }}
+              href="#AboutMe"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
               title="Look at the navbar"

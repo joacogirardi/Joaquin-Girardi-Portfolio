@@ -19,7 +19,7 @@ export default function Navbar() {
           </div>
           <button
             className="navbar-toggler"
-            style={{"background-color" : "rgb(107 187 0)", "border-radius" : "8px"}}
+            style={{"background-color" : "rgb(13, 202, 240)", "border-radius" : "8px"}}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -38,7 +38,7 @@ export default function Navbar() {
                   className="nav-link active  item_navBar"
                   id="middleTextpro"
                 >
-                  Proyects
+                  Projects
                 </a>
               </li>
 

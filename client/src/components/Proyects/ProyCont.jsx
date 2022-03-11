@@ -29,9 +29,6 @@ export default function ContCert() {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div style={{ "margin-top": "8pc" }}>
-            <h2 className="TitleCert">Projects and work trajectory</h2>
-          </div>
           <div className="ContProyMain">
             <Card cover css={{ w: "100%", p: 0 }}>
               <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>

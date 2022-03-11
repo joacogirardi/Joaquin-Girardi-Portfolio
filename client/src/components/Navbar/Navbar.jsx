@@ -34,9 +34,9 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
-                  href="/proyects"
+                  href="#proyects"
                   className="nav-link active  item_navBar"
-                  id="middleTextpro"
+                  id="liSocialMedia"
                 >
                   Projects
                 </a>

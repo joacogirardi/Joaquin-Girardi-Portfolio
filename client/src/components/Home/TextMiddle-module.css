@@ -14,6 +14,11 @@
   white-space: nowrap;
 }
 
+.Welcome_home{
+  margin-top: 2pc;
+  margin-bottom: 3pc;
+}
+
 .mainScreenText:first-of-type {
   animation: showup 7s infinite;
 }

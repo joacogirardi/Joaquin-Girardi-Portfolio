@@ -4,7 +4,6 @@
     font-weight: 600;
     background: #1a1a1a96;
     backdrop-filter: saturate(180%) blur(10px);
-    transition: background .3s;
     box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
 }
 
@@ -48,8 +47,8 @@
 }
 
 #middleTextpro{
-    color: rgb(13, 202, 240);
-    background-color: black;
+    color: black;
+    background-color: rgb(13, 202, 240);;
     padding: 7px;
     border-radius: 24px;
 }

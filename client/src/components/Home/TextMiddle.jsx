@@ -11,23 +11,24 @@ export default function TextMiddle() {
     <div style={{ "margin-top": "8pc" }}>
       <div className="row">
         <div className="col-12 someTextHere">
-          <div>
-            <h1 className="txtMP">Welcome {name ? name : "guest"}</h1>
-            <small style={{ color: "#a1a1a1" }}>
-              {" "}
-              I am Joaquin Girardi, <strong>Full Stack Developer</strong>
-            </small>
-          </div>
-          <div className="mainScreenText">
-            <small className="txtMPSmall">
-              This is my personal portfolio Feel free to watch it
-              <br />I hope you like it
-            </small>
+          <div className="Welcome_home">
+            <div>
+              <h1 className="txtMP">Welcome {name ? name : "guest"} 👋</h1>
+              <small style={{ color: "#a1a1a1", "font-size": "17px" }}>
+                I am Joaquin Girardi, <strong>Full Stack Developer</strong>
+              </small>
+            </div>
+            <div className="mainScreenText">
+              <small className="txtMPSmall">
+                This is my personal portfolio Feel free to watch it
+                <br />I hope you like it
+              </small>
+            </div>
           </div>
           <div style={{ margin: "1.5pc" }}></div>
-          <div className="designMainPage">
+          <div>
             <DemoCode />
-          </div>
+          </div> 
         </div>
       </div>
     </div>

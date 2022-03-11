@@ -15,13 +15,13 @@ export default function Footer() {
             <div className="col-4">
           <div className="columFootInf">
               <h4 className="titleFootList">Girardi Developer</h4>
-              <ul className="listFoot1">
-                <li className="everyUlList">This site was developed by Joaquin Girardi</li>
+              <l className="listFoot1">
+                <li className="everyUlList">site developed by Joaquin Girardi with 💟</li>
                 <li className="everyUlList">All rights reserved</li>
                 <li className="everyUlList">
                   Go to the <a href="#top">top</a>
                 </li>
-              </ul>
+              </l>
             </div>
           </div>
 
